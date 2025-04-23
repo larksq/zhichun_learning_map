@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AI/ML",
+    "itemStyle": {
+      "color": "#00FA9A"
+    }
+  },
+  {
+    "name": "Data\u00a0Eng",
+    "itemStyle": {
+      "color": "#ccc"
+    }
+  },
+  {
+    "name": "Math",
+    "itemStyle": {
+      "color": "#FFD700"
+    }
+  },
+  {
+    "name": "Programming",
+    "itemStyle": {
+      "color": "#87CEFA"
+    }
+  },
+  {
+    "name": "Security",
+    "itemStyle": {
+      "color": "#FFA07A"
+    }
+  },
+  {
+    "name": "Systems",
+    "itemStyle": {
+      "color": "#FF7F7F"
+    }
+  }
+] 

@@ -1,0 +1,617 @@
+[
+    {
+      "name": "Linear Algebra",
+      "category": "Math",
+      "prerequisites": [],
+      "title": "Study of linear equations, matrices, vector spaces, and linear transformations, forming the foundation for many areas of mathematics and its applications"
+    },
+    {
+      "name": "Probability Theory",
+      "category": "Math",
+      "prerequisites": ["Linear Algebra"],
+      "title": "Mathematical study of random phenomena, probability distributions, and stochastic processes essential for statistics and machine learning"
+    },
+    {
+      "name": "Information Theory",
+      "category": "Math",
+      "prerequisites": ["Probability Theory"],
+      "title": "Mathematical study of quantification, storage, and communication of information, including entropy, data compression, and channel capacity"
+    },
+    {
+      "name": "Numerical Optimization",
+      "category": "Math",
+      "prerequisites": ["Linear Algebra", "Calculus"],
+      "title": "Study of algorithms and methods for finding minimum or maximum values of mathematical functions, crucial for machine learning and engineering"
+    },
+    {
+      "name": "Distributed Systems Fundamentals",
+      "category": "Systems",
+      "prerequisites": ["Operating System Kernels", "Networking (TCP/IP Advanced)"],
+      "title": "Core principles of distributed computing, including consistency, availability, fault tolerance, and distributed consensus"
+    },
+    {
+      "name": "Applied Cryptography",
+      "category": "Security",
+      "prerequisites": ["Number Theory"],
+      "title": "Practical implementation of cryptographic algorithms and protocols for securing data and communications"
+    },
+    {
+      "name": "Machine Learning Foundations",
+      "category": "AI/ML",
+      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus"],
+      "title": "Fundamental concepts of machine learning including supervised/unsupervised learning, model evaluation, and basic algorithms"
+    },
+    {
+      "name": "Representation Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Deep Learning"],
+      "title": "Study of learning data representations that make it easier to extract useful information for machine learning tasks"
+    },
+    {
+      "name": "Deep Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations"],
+      "title": "Neural network architectures, training techniques, and applications in various domains like computer vision and natural language processing"
+    },
+    {
+      "name": "Deep RL",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning", "Reinforcement Learning"],
+      "title": "Integration of deep learning with reinforcement learning for training agents through neural networks in complex environments"
+    },
+    {
+      "name": "Large Language Models",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning", "Self‑Supervised Learning"],
+      "title": "Architecture, training, and application of large-scale transformer models for natural language processing tasks"
+    },
+    {
+      "name": "Statistics",
+      "category": "Math",
+      "prerequisites": ["Probability Theory"],
+      "title": "Collection, analysis, interpretation, and presentation of data, including hypothesis testing and statistical inference"
+    },
+    {
+      "name": "Calculus",
+      "category": "Math",
+      "prerequisites": [],
+      "title": "Study of continuous change, including derivatives, integrals, and infinite series, fundamental to mathematical modeling"
+    },
+    {
+      "name": "Graph Theory",
+      "category": "Math",
+      "prerequisites": ["Linear Algebra"],
+      "title": "Mathematical study of graphs and networks, including connectivity, paths, and structural properties"
+    },
+    {
+      "name": "Convex Optimization",
+      "category": "Math",
+      "prerequisites": ["Linear Algebra", "Calculus"],
+      "title": "Study of minimizing convex functions over convex sets, with applications in machine learning and operations research"
+    },
+    {
+      "name": "Non‑Convex Optimization",
+      "category": "Math",
+      "prerequisites": ["Convex Optimization"],
+      "title": "Advanced optimization techniques for non-convex problems, including gradient-based methods and global optimization"
+    },
+    {
+      "name": "Randomized Algorithms",
+      "category": "Math",
+      "prerequisites": ["Probability Theory", "Data Structures & Algorithms"],
+      "title": "Design and analysis of algorithms that make random choices to solve problems efficiently"
+    },
+    {
+      "name": "Complexity Theory",
+      "category": "Math",
+      "prerequisites": ["Data Structures & Algorithms"],
+      "title": "Study of computational resource requirements and limitations of algorithms and problems"
+    },
+    {
+      "name": "Number Theory",
+      "category": "Math",
+      "prerequisites": [],
+      "title": "Study of integers and their properties, fundamental to cryptography and computer science"
+    },
+    {
+      "name": "Abstract Algebra",
+      "category": "Math",
+      "prerequisites": ["Linear Algebra", "Number Theory"],
+      "title": "Study of algebraic structures like groups, rings, and fields, with applications in cryptography and coding theory"
+    },
+    {
+      "name": "Differential Privacy Foundations",
+      "category": "Math",
+      "prerequisites": ["Probability Theory", "Statistics"],
+      "title": "Mathematical framework for sharing information about datasets while withholding information about individuals"
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "category": "Programming",
+      "prerequisites": [],
+      "title": "Fundamental computer science concepts covering data organization and algorithm design for efficient problem solving"
+    },
+    {
+      "name": "Systems Programming (C/Rust)",
+      "category": "Programming",
+      "prerequisites": ["Data Structures & Algorithms"],
+      "title": "Low-level programming focusing on memory management, system calls, and performance optimization"
+    },
+    {
+      "name": "Concurrent Programming",
+      "category": "Programming",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Design and implementation of programs with multiple concurrent threads of execution"
+    },
+    {
+      "name": "GPU Programming (CUDA)",
+      "category": "Programming",
+      "prerequisites": ["Systems Programming (C/Rust)", "Parallel Programming"],
+      "title": "Programming for graphics processing units using CUDA framework for parallel computing"
+    },
+    {
+      "name": "Parallel Programming",
+      "category": "Programming",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Design and implementation of programs that execute simultaneously on multiple processors"
+    },
+    {
+      "name": "Operating System Kernels",
+      "category": "Systems",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Core concepts of operating system design including process management, memory management, and file systems"
+    },
+    {
+      "name": "Virtualization",
+      "category": "Systems",
+      "prerequisites": ["Operating System Kernels"],
+      "title": "Technologies and techniques for creating virtual machines and managing system resources"
+    },
+    {
+      "name": "Cloud‑Native Architecture",
+      "category": "Systems",
+      "prerequisites": ["Distributed Systems Fundamentals", "Containerization"],
+      "title": "Design principles for scalable, resilient applications optimized for cloud environments"
+    },
+    {
+      "name": "Consensus Algorithms (Paxos/Raft)",
+      "category": "Systems",
+      "prerequisites": ["Distributed Systems Fundamentals"],
+      "title": "Algorithms for achieving agreement in distributed systems despite failures"
+    },
+    {
+      "name": "Distributed Storage Systems",
+      "category": "Systems",
+      "prerequisites": ["Distributed Systems Fundamentals"],
+      "title": "Design and implementation of scalable, fault-tolerant storage systems across multiple nodes"
+    },
+    {
+      "name": "Query Optimization",
+      "category": "Systems",
+      "prerequisites": ["Data Structures & Algorithms", "Distributed Databases"],
+      "title": "Techniques for improving database query performance through execution plan optimization"
+    },
+    {
+      "name": "Networking (TCP/IP Advanced)",
+      "category": "Systems",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Advanced concepts in computer networking, protocols, and network programming"
+    },
+    {
+      "name": "Software‑Defined Networking",
+      "category": "Systems",
+      "prerequisites": ["Networking (TCP/IP Advanced)"],
+      "title": "Network architecture that makes networks programmable through software abstractions"
+    },
+    {
+      "name": "Large‑Scale Data Processing",
+      "category": "Systems",
+      "prerequisites": ["Distributed Systems Fundamentals"],
+      "title": "Techniques and systems for processing massive datasets across distributed computing clusters"
+    },
+    {
+      "name": "Edge Computing",
+      "category": "Systems",
+      "prerequisites": ["Distributed Systems Fundamentals", "Cloud‑Native Architecture"],
+      "title": "Computing paradigm that brings computation and data storage closer to the location of data generation"
+    },
+    {
+      "name": "Post‑Quantum Cryptography",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography", "Number Theory"],
+      "title": "Cryptographic systems that are secure against both quantum and classical computers"
+    },
+    {
+      "name": "Homomorphic Encryption",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography"],
+      "title": "Encryption systems that allow computation on encrypted data without decryption"
+    },
+    {
+      "name": "Binary Exploitation",
+      "category": "Security",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Techniques for finding and exploiting vulnerabilities in binary programs"
+    },
+    {
+      "name": "Reverse Engineering",
+      "category": "Security",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Analysis of compiled software to understand its structure, behavior, and vulnerabilities"
+    },
+    {
+      "name": "Fuzzing",
+      "category": "Security",
+      "prerequisites": ["Binary Exploitation"],
+      "title": "Automated software testing technique that finds vulnerabilities by providing invalid or random data"
+    },
+    {
+      "name": "Side‑Channel Attacks",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography", "Hardware Security"],
+      "title": "Attacks based on information gained from physical implementation of computer systems"
+    },
+    {
+      "name": "Trusted Execution Environments",
+      "category": "Security",
+      "prerequisites": ["Operating System Kernels", "Hardware Security"],
+      "title": "Secure areas within processors that guarantee code and data loaded inside is protected"
+    },
+    {
+      "name": "Hardware Security",
+      "category": "Security",
+      "prerequisites": ["Systems Programming (C/Rust)"],
+      "title": "Security aspects of hardware design, implementation, and verification"
+    },
+    {
+      "name": "Threat Intelligence",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography", "Network Function Virtualization"],
+      "title": "Collection and analysis of information about current and potential attacks threatening an organization"
+    },
+    {
+      "name": "Differential Privacy (Applied)",
+      "category": "Security",
+      "prerequisites": ["Differential Privacy Foundations"],
+      "title": "Practical implementation of differential privacy techniques in real-world applications"
+    },
+    {
+      "name": "Adversarial Machine Learning",
+      "category": "Security",
+      "prerequisites": ["Machine Learning Foundations", "Deep Learning"],
+      "title": "Study of machine learning vulnerabilities and techniques to make models robust against attacks"
+    },
+    {
+      "name": "Supervised Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations"],
+      "title": "Machine learning paradigm using labeled data to train models for prediction tasks"
+    },
+    {
+      "name": "Unsupervised Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations"],
+      "title": "Machine learning techniques for finding patterns and structure in unlabeled data"
+    },
+    {
+      "name": "Self‑Supervised Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning"],
+      "title": "Training paradigm where supervision comes from the data itself rather than explicit labels"
+    },
+    {
+      "name": "Probabilistic Graphical Models",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Probability Theory"],
+      "title": "Framework for representing and reasoning about complex probability distributions using graphs"
+    },
+    {
+      "name": "Bayesian Nonparametrics",
+      "category": "AI/ML",
+      "prerequisites": ["Probabilistic Graphical Models", "Statistics"],
+      "title": "Bayesian methods with infinite-dimensional parameter spaces for flexible model complexity"
+    },
+    {
+      "name": "Variational Inference",
+      "category": "AI/ML",
+      "prerequisites": ["Probabilistic Graphical Models"],
+      "title": "Techniques for approximating complex probability distributions in Bayesian inference"
+    },
+    {
+      "name": "Reinforcement Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations"],
+      "title": "Training agents to make sequences of decisions through interaction with an environment"
+    },
+    {
+      "name": "Prompt Engineering",
+      "category": "AI/ML",
+      "prerequisites": ["Large Language Models"],
+      "title": "Techniques for effectively instructing and controlling large language models through input design"
+    },
+    {
+      "name": "Distributed Training for LLMs",
+      "category": "AI/ML",
+      "prerequisites": ["Large Language Models", "Distributed Systems Fundamentals"],
+      "title": "Techniques for training large language models across distributed computing resources"
+    },
+    {
+      "name": "Model Compression & Acceleration",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning"],
+      "title": "Methods for reducing model size and improving inference speed while maintaining performance"
+    },
+    {
+      "name": "MLOps",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Cloud‑Native Architecture"],
+      "title": "Practices for deploying and maintaining machine learning models in production environments"
+    },
+    {
+      "name": "Data Warehousing",
+      "category": "Data Eng",
+      "prerequisites": ["Distributed Storage Systems"],
+      "title": "Design and implementation of large-scale data storage systems for analytics and reporting"
+    },
+    {
+      "name": "ETL Pipelines",
+      "category": "Data Eng",
+      "prerequisites": ["Data Warehousing"],
+      "title": "Systems for extracting, transforming, and loading data between different storage systems"
+    },
+    {
+      "name": "Streaming Data Processing",
+      "category": "Data Eng",
+      "prerequisites": ["Large‑Scale Data Processing"],
+      "title": "Processing and analyzing data in real-time as it arrives from continuous sources"
+    },
+    {
+      "name": "Feature Stores",
+      "category": "Data Eng",
+      "prerequisites": ["Data Warehousing", "MLOps"],
+      "title": "Systems for managing and serving machine learning features in production environments"
+    },
+    {
+      "name": "Data Orchestration (Airflow)",
+      "category": "Data Eng",
+      "prerequisites": ["ETL Pipelines"],
+      "title": "Tools and techniques for scheduling and managing complex data processing workflows"
+    },
+    {
+      "name": "Game Theory",
+      "category": "Math",
+      "prerequisites": ["Probability Theory"],
+      "title": "Mathematical study of strategic decision making and interactions between rational agents"
+    },
+    {
+      "name": "Approximation Algorithms",
+      "category": "Math",
+      "prerequisites": ["Data Structures & Algorithms"],
+      "title": "Algorithms that find approximate solutions to optimization problems that are hard to solve exactly"
+    },
+    {
+      "name": "Functional Programming",
+      "category": "Programming",
+      "prerequisites": ["Data Structures & Algorithms"],
+      "title": "Programming paradigm treating computation as mathematical functions without state or mutable data"
+    },
+    {
+      "name": "Distributed Databases",
+      "category": "Systems",
+      "prerequisites": ["Distributed Storage Systems"],
+      "title": "Database systems that store and process data across multiple computers"
+    },
+    {
+      "name": "Network Function Virtualization",
+      "category": "Systems",
+      "prerequisites": ["Software‑Defined Networking", "Virtualization"],
+      "title": "Virtualizing network services traditionally performed by dedicated hardware"
+    },
+    {
+      "name": "Hardware Accelerators (TPU)",
+      "category": "Systems",
+      "prerequisites": ["GPU Programming (CUDA)"],
+      "title": "Specialized hardware processors designed to accelerate specific types of computations"
+    },
+    {
+      "name": "Cryptanalysis",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography"],
+      "title": "Study of methods to break or bypass cryptographic security systems"
+    },
+    {
+      "name": "Secure Multiparty Computation",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography"],
+      "title": "Cryptographic protocols allowing multiple parties to jointly compute functions while keeping inputs private"
+    },
+    {
+      "name": "Web Security",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography", "Networking (TCP/IP Advanced)"],
+      "title": "Security principles and practices specific to web applications and services"
+    },
+    {
+      "name": "Malware Analysis",
+      "category": "Security",
+      "prerequisites": ["Reverse Engineering", "Binary Exploitation"],
+      "title": "Techniques for analyzing malicious software to understand its behavior and capabilities"
+    },
+    {
+      "name": "Supply Chain Security",
+      "category": "Security",
+      "prerequisites": ["Web Security", "Cryptography"],
+      "title": "Security measures for protecting software and hardware supply chains from attacks"
+    },
+    {
+      "name": "Digital Forensics",
+      "category": "Security",
+      "prerequisites": ["Malware Analysis", "Operating System Kernels"],
+      "title": "Collection and analysis of digital evidence for security incidents and investigations"
+    },
+    {
+      "name": "Incident Response",
+      "category": "Security",
+      "prerequisites": ["Digital Forensics", "Threat Intelligence"],
+      "title": "Methodologies for detecting, investigating, and responding to security incidents"
+    },
+    {
+      "name": "Zero Trust Architecture",
+      "category": "Security",
+      "prerequisites": ["Web Security", "Cloud‑Native Architecture"],
+      "title": "Security model that requires strict verification for every person and device trying to access resources"
+    },
+    {
+      "name": "Blockchain Security",
+      "category": "Security",
+      "prerequisites": ["Applied Cryptography", "Distributed Systems Fundamentals"],
+      "title": "Security aspects of blockchain systems including consensus, smart contracts, and cryptographic protocols"
+    },
+    {
+      "name": "Generative Models (VAE/GAN/Diffusion)",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning"],
+      "title": "Deep learning models capable of generating new data samples similar to training data"
+    },
+    {
+      "name": "Graph Neural Networks",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning", "Graph Theory"],
+      "title": "Neural networks that operate on graph-structured data for tasks like node classification and link prediction"
+    },
+    {
+      "name": "Causal Inference for ML",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Statistics"],
+      "title": "Methods for understanding and leveraging cause-effect relationships in machine learning"
+    },
+    {
+      "name": "Offline RL",
+      "category": "AI/ML",
+      "prerequisites": ["Deep RL"],
+      "title": "Reinforcement learning techniques that work with previously collected data without environment interaction"
+    },
+    {
+      "name": "Multi‑Agent RL",
+      "category": "AI/ML",
+      "prerequisites": ["Deep RL", "Game Theory"],
+      "title": "Reinforcement learning in systems with multiple interacting agents"
+    },
+    {
+      "name": "Meta‑Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning"],
+      "title": "Training models that can quickly adapt to new tasks with minimal data"
+    },
+    {
+      "name": "Continual Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning"],
+      "title": "Methods for training models that can learn continuously from a stream of data without forgetting"
+    },
+    {
+      "name": "Retrieval‑Augmented Generation",
+      "category": "AI/ML",
+      "prerequisites": ["Large Language Models"],
+      "title": "Enhancing language model outputs by incorporating information from external knowledge sources"
+    },
+    {
+      "name": "Alignment & RLHF",
+      "category": "AI/ML",
+      "prerequisites": ["Large Language Models", "Deep RL"],
+      "title": "Techniques for aligning language models with human values and preferences"
+    },
+    {
+      "name": "AutoML",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Deep Learning"],
+      "title": "Automated methods for selecting and optimizing machine learning models and pipelines"
+    },
+    {
+      "name": "Federated Learning",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Distributed Systems Fundamentals"],
+      "title": "Training machine learning models across decentralized devices while keeping data local"
+    },
+    {
+      "name": "Differentially Private ML",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Differential Privacy Foundations"],
+      "title": "Machine learning methods that preserve privacy through differential privacy guarantees"
+    },
+    {
+      "name": "Explainable AI",
+      "category": "AI/ML",
+      "prerequisites": ["Deep Learning"],
+      "title": "Methods for understanding and interpreting decisions made by machine learning models"
+    },
+    {
+      "name": "Responsible AI & Fairness",
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning Foundations", "Explainable AI"],
+      "title": "Principles and techniques for developing AI systems that are ethical, fair, and transparent"
+    },
+    {
+        "name": "Computational Physics",
+        "category": "Physics",
+        "prerequisites": [
+          "Linear Algebra",
+          "Numerical Optimization",
+          "Machine Learning Foundations"
+        ],
+        "title": "Introduction to numerical methods and simulations for solving physics problems computationally."
+    },
+    {
+    "name": "Statistical Mechanics",
+    "category": "Physics",
+    "prerequisites": [
+        "Probability Theory",
+        "Information Theory"
+    ],
+    "title": "Study of large-scale behavior of systems from a probabilistic and information-theoretic perspective."
+    },
+    {
+    "name": "Quantum Mechanics",
+    "category": "Physics",
+    "prerequisites": [
+        "Linear Algebra",
+        "Probability Theory"
+    ],
+    "title": "Fundamentals of quantum theory, wave functions, and applications to modern computing concepts."
+    },
+    {
+    "name": "Electromagnetism",
+    "category": "Physics",
+    "prerequisites": [
+        "Linear Algebra"
+    ],
+    "title": "Analysis of electric and magnetic fields and their interactions with matter and circuits."
+    },
+    {
+    "name": "Thermodynamics",
+    "category": "Physics",
+    "prerequisites": [
+        "Probability Theory",
+        "Numerical Optimization"
+    ],
+    "title": "Principles of energy, heat transfer, and work, with applications to statistical models."
+    },
+    {
+    "name": "Signal Processing",
+    "category": "Physics",
+    "prerequisites": [
+        "Information Theory",
+        "Numerical Optimization"
+    ],
+    "title": "Techniques for analyzing, filtering, and reconstructing signals in time and frequency domains."
+    },
+    {
+    "name": "Nonlinear Dynamics and Chaos",
+    "category": "Physics",
+    "prerequisites": [
+        "Numerical Optimization",
+        "Deep Learning"
+    ],
+    "title": "Exploration of nonlinear systems, chaotic behavior, and their implications for complex models."
+    }
+] 

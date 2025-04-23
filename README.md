@@ -1,5 +1,9 @@
 # zhichun_learning_map
  
+## Changelog
+
+- Change to pyviz library, Apr. 23rd
+
 ## 进度与Todos
 
 - [x] 模版已创建完毕
@@ -10,12 +14,12 @@
 
 ## How to use
 
-![example](./graph_example.png)
+<!-- ![example](./graph_example.png) -->
 
-1. 使用你最喜欢的AI代码编译器（如Cursor）或者将html文件丢给你最喜欢的AI客户端或网页，告诉他们你需要如何修改，
-2. 将修改后的html代码粘贴回原来的html文件
-3. 使用浏览器打开该文件以便查看变化是否正确，页面功能是否仍然正常
-4. 使用git commit并将修改统一push到github的代码库中
+1. 代码模版进行了更新，本地创建环境，需要先运行下面的命令安装python环境。Python环境将用于将json文件转换成HTML代码用于展示。`pip insatll -r requirement.txt`
+2. 之后通过修改classes.json文件对数据进行更新。更新后运行main.py更新html文件以便查看更新后的效果。`python main.py`
+3. 使用git commit并将修改统一push到github的代码库中
+
 
 ## 数据结构
 
