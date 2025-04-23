@@ -28,11 +28,10 @@ def format_title(text, max_length=50):
 CATEGORY_COLORS = {
     "Math": "#FF6B6B",  # Red
     "Systems": "#4ECDC4",  # Teal
-    "Security": "#FFD93D",  # Yellow
+    "Physics": "#FFD93D",  # Yellow
     "AI/ML": "#95E1D3",  # Mint
     "Programming": "#A8E6CF",  # Light green
     "Data Eng": "#6C5B7B",  # Purple
-    "Physics": "#6F98A8",  # Light blue
     "External": "#808080"  # Gray
 }
 
