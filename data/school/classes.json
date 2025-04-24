@@ -27,6 +27,7 @@
       "name": "Machine Learning Foundations",
       "category": "AI/ML",
       "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus", "Python Programming", "Data Structures & Algorithms"],
+      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus", "Python Programming", "Data Structures & Algorithms"],
       "title": "Fundamental concepts of machine learning including supervised/unsupervised learning, model evaluation, and basic algorithms"
     },
     {
@@ -122,13 +123,13 @@
     {
         "name": "Autonomous Driving",
         "category": "Systems",
-        "prerequisites": ["Mapping and SLAM", "Generative Models", "Deep RL", "Off2Online RL", "Multi-modality Learning"],
+        "prerequisites": ["Mapping and SLAM", "Generative Models", "Deep RL", "Off2Online RL", "Multi-modality Learning", "Classical Mechanics"],
         "title": "Study, explore, and implement autonomous driving and robotics systems"
     },
     {
         "name": "Manipulation and Humannoid Robotics",
         "category": "Systems",
-        "prerequisites": ["Representation Learning", "Autonomous Driving"],
+        "prerequisites": ["Representation Learning", "Autonomous Driving", "Classical Mechanics"],
         "title": "Study, explore, and implement manipulation and humannoid robotics systems"
     },
     {
@@ -246,51 +247,6 @@
       "title": "Principles and techniques for developing AI systems that are ethical, fair, and transparent"
     },
     {
-        "name": "Computational Physics",
-        "category": "Physics",
-        "prerequisites": [
-          "Linear Algebra",
-          "Numerical Optimization",
-          "Machine Learning Foundations"
-        ],
-        "title": "Introduction to numerical methods and simulations for solving physics problems computationally."
-    },
-    {
-        "name": "Statistical Mechanics",
-        "category": "Physics",
-        "prerequisites": [
-            "Probability Theory",
-            "Information Theory"
-        ],
-        "title": "Study of large-scale behavior of systems from a probabilistic and information-theoretic perspective."
-    },
-    {
-        "name": "Quantum Mechanics",
-        "category": "Physics",
-        "prerequisites": [
-            "Linear Algebra",
-            "Probability Theory"
-        ],
-        "title": "Fundamentals of quantum theory, wave functions, and applications to modern computing concepts."
-    },
-    {
-    "name": "Electromagnetism",
-    "category": "Physics",
-    "prerequisites": [
-        "Linear Algebra"
-    ],
-    "title": "Analysis of electric and magnetic fields and their interactions with matter and circuits."
-    },
-    {
-    "name": "Thermodynamics",
-    "category": "Physics",
-    "prerequisites": [
-        "Probability Theory",
-        "Numerical Optimization"
-    ],
-    "title": "Principles of energy, heat transfer, and work, with applications to statistical models."
-    },
-    {
     "name": "Digital Signal Processing",
     "category": "Math",
     "prerequisites": [
@@ -334,5 +290,71 @@
         "category": "Systems",
         "prerequisites": ["Computer Systems"],
         "title": "Introduction to chips and VLSI design, including digital logic, computer architecture, and computer organization."
+    },
+    {
+      "name": "Classical Mechanics",
+      "category": "Physics",
+      "prerequisites": ["Calculus", "Linear Algebra"],
+      "title": "Newtonian, Lagrangian, and Hamiltonian mechanics describing fundamental motion laws"
+    },
+    {
+      "name": "Electromagnetism",
+      "category": "Physics",
+      "prerequisites": ["Calculus", "Linear Algebra"],
+      "title": "Study of electric/magnetic fields and their interactions via Maxwell's equations"
+    },
+    {
+      "name": "Vibrations and Waves",
+      "category": "Physics",
+      "prerequisites": ["Classical Mechanics", "Calculus"],
+      "title": "Mathematical analysis of mechanical/electromagnetic waves and quantum oscillations"
+    },
+    {
+      "name": "Quantum Mechanics",
+      "category": "Physics",
+      "prerequisites": ["Linear Algebra", "Probability Theory", "Classical Mechanics"],
+      "title": "Quantized behavior of microscopic particles including Schrödinger equation"
+    },
+    {
+      "name": "Statistical Physics",
+      "category": "Physics",
+      "prerequisites": ["Probability Theory"],
+      "title": "Deriving macroscopic thermodynamics from microscopic particle statistics"
+    },
+    {
+      "name": "Solid State Physics",
+      "category": "Physics",
+      "prerequisites": ["Quantum Mechanics", "Electromagnetism"],
+      "title": "Crystal structures, band theory, and semiconductor properties"
+    },
+    {
+      "name": "Quantum Computing",
+      "category": "Physics",
+      "prerequisites": ["Quantum Mechanics", "Information Theory", "Linear Algebra"],
+      "title": "Theoretical foundations and algorithms using quantum bits (qubits)"
+    },
+    {
+      "name": "Special Relativity",
+      "category": "Physics",
+      "prerequisites": ["Electromagnetism", "Classical Mechanics"],
+      "title": "Einstein's theory of spacetime for high-velocity objects"
+    },
+    {
+      "name": "Astrophysics",
+      "category": "Physics",
+      "prerequisites": ["Classical Mechanics", "Special Relativity", "Electromagnetism"],
+      "title": "Physical laws applied to celestial objects and cosmic evolution"
+    },
+    {
+      "name": "Quantum Field Theory",
+      "category": "Physics",
+      "prerequisites": ["Quantum Mechanics", "Special Relativity"],
+      "title": "Quantum description of fields and particles combining QM and relativity"
+    },
+    {
+      "name": "General Relativity",
+      "category": "Physics",
+      "prerequisites": ["Special Relativity", "Classical Mechanics", "Calculus"],
+      "title": "Einstein's theory of gravity as curvature of spacetime"
     }
 ]
