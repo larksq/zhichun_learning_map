@@ -26,7 +26,7 @@
     {
       "name": "Machine Learning Foundations",
       "category": "AI/ML",
-      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus"],
+      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus", "Python Programming", "Data Structures & Algorithms"],
       "title": "Fundamental concepts of machine learning including supervised/unsupervised learning, model evaluation, and basic algorithms"
     },
     {
@@ -168,22 +168,16 @@
       "title": "Algorithms that find approximate solutions to optimization problems that are hard to solve exactly"
     },
     {
-      "name": "Functional Programming",
-      "category": "Programming",
-      "prerequisites": ["Data Structures & Algorithms"],
-      "title": "Programming paradigm treating computation as mathematical functions without state or mutable data"
-    },
-    {
       "name": "Generative Models",
       "category": "AI/ML",
       "prerequisites": ["Deep Learning"],
       "title": "(VAE/GAN/Diffusion) Deep learning models capable of generating new data samples similar to training data"
     },
     {
-        "name": "Advanced Computer Graphics",
+        "name": "Learning-based Computer Graphics",
         "category": "AI/ML",
         "prerequisites": ["Representation Learning"],
-        "title": "Advanced techniques in computer graphics for creating realistic and interactive 3D environments"
+        "title": "Learning-based techniques in computer graphics for creating realistic and interactive 3D environments"
     },
     {
       "name": "Graph Neural Networks",
@@ -262,22 +256,22 @@
         "title": "Introduction to numerical methods and simulations for solving physics problems computationally."
     },
     {
-    "name": "Statistical Mechanics",
-    "category": "Physics",
-    "prerequisites": [
-        "Probability Theory",
-        "Information Theory"
-    ],
-    "title": "Study of large-scale behavior of systems from a probabilistic and information-theoretic perspective."
+        "name": "Statistical Mechanics",
+        "category": "Physics",
+        "prerequisites": [
+            "Probability Theory",
+            "Information Theory"
+        ],
+        "title": "Study of large-scale behavior of systems from a probabilistic and information-theoretic perspective."
     },
     {
-    "name": "Quantum Mechanics",
-    "category": "Physics",
-    "prerequisites": [
-        "Linear Algebra",
-        "Probability Theory"
-    ],
-    "title": "Fundamentals of quantum theory, wave functions, and applications to modern computing concepts."
+        "name": "Quantum Mechanics",
+        "category": "Physics",
+        "prerequisites": [
+            "Linear Algebra",
+            "Probability Theory"
+        ],
+        "title": "Fundamentals of quantum theory, wave functions, and applications to modern computing concepts."
     },
     {
     "name": "Electromagnetism",
@@ -297,12 +291,48 @@
     "title": "Principles of energy, heat transfer, and work, with applications to statistical models."
     },
     {
-    "name": "Signal Processing",
-    "category": "Physics",
+    "name": "Digital Signal Processing",
+    "category": "Math",
     "prerequisites": [
         "Information Theory",
         "Numerical Optimization"
     ],
     "title": "Techniques for analyzing, filtering, and reconstructing signals in time and frequency domains."
+    },
+    {
+        "name": "C++ Programming",
+        "category": "Programming",
+        "prerequisites": [],
+        "title": "Introduction to C++ programming, object-oriented programming, and memory management. Covers tree, graph, linked list, and etc."
+    },
+    {
+        "name": "Python Programming",
+        "category": "Programming",
+        "prerequisites": [],
+        "title": "Introduction to Python programming, scientific computing, and data analysis."
+    },
+    {
+        "name": "Web Development & Databases",
+        "category": "Programming",
+        "prerequisites": ["Python Programming"],
+        "title": "Introduction to web development and databases, including HTML, CSS, JavaScript, and SQL."
+    },
+    {
+        "name": "Computer Systems",
+        "category": "Systems",
+        "prerequisites": ["C++ Programming"],
+        "title": "Introduction to computer systems, including architecture, operating systems, and computer networks."
+    },
+    {
+        "name": "Blockchain and Cryptocurrencies",
+        "category": "Systems",
+        "prerequisites": ["Python Programming", "Data Structures & Algorithms"],
+        "title": "Introduction to blockchain technology, blockchain platforms, including consensus mechanisms, smart contracts, and decentralized applications."
+    },
+    {
+        "name": "Chips and VLSI Design",
+        "category": "Systems",
+        "prerequisites": ["Computer Systems"],
+        "title": "Introduction to chips and VLSI design, including digital logic, computer architecture, and computer organization."
     }
-] 
+]
