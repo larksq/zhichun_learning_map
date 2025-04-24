@@ -171,7 +171,7 @@
     {
       "name": "Differential Geometry",
       "category": "Math",
-      "prerequisites": ["Linear Algebra", "Calculus"],
+      "prerequisites": ["Calculus"],
       "title": "Study of smooth manifolds and their geometric properties, including curvature and geodesics"
     },
     {
@@ -306,37 +306,37 @@
     {
       "name": "Classical Mechanics",
       "category": "Physics",
-      "prerequisites": ["Calculus", "Linear Algebra"],
+      "prerequisites": ["Calculus", "Partial Differential Equation"],
       "title": "Newtonian, Lagrangian, and Hamiltonian mechanics describing fundamental motion laws"
     },
     {
       "name": "Electromagnetism",
       "category": "Physics",
-      "prerequisites": ["Calculus", "Linear Algebra"],
+      "prerequisites": ["Calculus", "Partial Differential Equation"],
       "title": "Study of electric/magnetic fields and their interactions via Maxwell's equations"
     },
     {
       "name": "Vibrations and Waves",
       "category": "Physics",
-      "prerequisites": ["Classical Mechanics", "Calculus"],
+      "prerequisites": ["Classical Mechanics", "Calculus", "Partial Differential Equation", "Electromagnetism"],
       "title": "Mathematical analysis of mechanical/electromagnetic waves and quantum oscillations"
     },
     {
       "name": "Quantum Mechanics",
       "category": "Physics",
-      "prerequisites": ["Linear Algebra", "Probability Theory", "Classical Mechanics"],
+      "prerequisites": ["Classical Mechanics","Linear Algebra", "Partial Differential Equation", "Vibrations and Waves"],
       "title": "Quantized behavior of microscopic particles including Schrödinger equation"
     },
     {
       "name": "Statistical Physics",
       "category": "Physics",
-      "prerequisites": ["Probability Theory"],
+      "prerequisites": ["Probability Theory", "Classical Mechanics", "Calculus"],
       "title": "Deriving macroscopic thermodynamics from microscopic particle statistics"
     },
     {
       "name": "Solid State Physics",
       "category": "Physics",
-      "prerequisites": ["Quantum Mechanics", "Electromagnetism"],
+      "prerequisites": ["Quantum Mechanics", "Electromagnetism", "Statistical Physics"],
       "title": "Crystal structures, band theory, and semiconductor properties"
     },
     {
