@@ -169,6 +169,18 @@
       "title": "Algorithms that find approximate solutions to optimization problems that are hard to solve exactly"
     },
     {
+      "name": "Differential Geometry",
+      "category": "Math",
+      "prerequisites": ["Linear Algebra", "Calculus"],
+      "title": "Study of smooth manifolds and their geometric properties, including curvature and geodesics"
+    },
+    {
+      "name": "Partial Differential Equation",
+      "category": "Math",
+      "prerequisites": ["Calculus"],
+      "title": "Study of partial derivatives of functions of multiple variables, with applications in physics and engineering"
+    },
+    {
       "name": "Generative Models",
       "category": "AI/ML",
       "prerequisites": ["Deep Learning"],
