@@ -16,7 +16,7 @@
 
 <!-- ![example](./graph_example.png) -->
 
-1. 代码模版进行了更新，本地创建环境，需要先运行下面的命令安装python环境。Python环境将用于将json文件转换成HTML代码用于展示。`pip insatll -r requirement.txt`
+1. 代码模版进行了更新，本地创建环境，需要先运行下面的命令安装python环境。Python环境将用于将json文件转换成HTML代码用于展示。`pip install -r requirements.txt`
 2. 之后通过修改classes.json文件对数据进行更新。更新后运行main.py更新html文件以便查看更新后的效果。`python main.py`
 3. 使用git commit并将修改统一push到github的代码库中
 

@@ -26,14 +26,13 @@
     {
       "name": "Machine Learning Foundations",
       "category": "AI/ML",
-      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus", "Python Programming", "Data Structures & Algorithms"],
-      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus", "Python Programming", "Data Structures & Algorithms"],
+      "prerequisites": ["Linear Algebra", "Probability Theory", "Calculus", "Python Programming", "Data Structures, C++ Programming, & Algorithms"],
       "title": "Fundamental concepts of machine learning including supervised/unsupervised learning, model evaluation, and basic algorithms"
     },
     {
       "name": "Representation Learning",
       "category": "AI/ML",
-      "prerequisites": ["Machine Learning Foundations", "Deep Learning"],
+      "prerequisites": ["Deep Learning"],
       "title": "Study of learning data representations that make it easier to extract useful information for machine learning tasks"
     },
     {
@@ -51,7 +50,7 @@
     {
       "name": "Large Language Models",
       "category": "AI/ML",
-      "prerequisites": ["Deep Learning", "Self‑Supervised Learning"],
+      "prerequisites": ["Deep Learning"],
       "title": "Architecture, training, and application of large-scale transformer models for natural language processing tasks"
     },
     {
@@ -87,7 +86,7 @@
     {
       "name": "Complexity Theory",
       "category": "Math",
-      "prerequisites": ["Data Structures & Algorithms"],
+      "prerequisites": ["Data Structures, C++ Programming, & Algorithms"],
       "title": "Study of computational resource requirements and limitations of algorithms and problems"
     },
     {
@@ -103,51 +102,39 @@
       "title": "Study of algebraic structures like groups, rings, and fields, with applications in cryptography and coding theory"
     },
     {
-      "name": "Data Structures & Algorithms",
+      "name": "Data Structures, C++ Programming, & Algorithms",
       "category": "Programming",
       "prerequisites": [],
       "title": "Fundamental computer science concepts covering data organization and algorithm design for efficient problem solving"
     },
     {
         "name": "Mapping and SLAM",
-        "category": "Systems",
-        "prerequisites": ["Deep Learning", "Representation Learning"],
+        "category": "AI/ML",
+        "prerequisites": ["Representation Learning"],
         "title": "Mapping and simultaneous localization and mapping (SLAM) for robots and autonomous systems"
     },
     {
         "name": "Multi-modality Learning",
         "category": "AI/ML",
-        "prerequisites": ["Deep Learning", "Representation Learning", "Large Language Models"],
+        "prerequisites": ["Representation Learning", "Large Language Models"],
         "title": "Teaching models to learn images, videos, audio, along with text"
     },
     {
         "name": "Autonomous Driving",
-        "category": "Systems",
-        "prerequisites": ["Mapping and SLAM", "Generative Models", "Deep RL", "Off2Online RL", "Multi-modality Learning", "Classical Mechanics"],
+        "category": "AI/ML",
+        "prerequisites": ["Mapping and SLAM", "Generative Models", "Deep RL", "Multi-modality Learning", "Classical Mechanics"],
         "title": "Study, explore, and implement autonomous driving and robotics systems"
     },
     {
         "name": "Manipulation and Humannoid Robotics",
-        "category": "Systems",
+        "category": "AI/ML",
         "prerequisites": ["Representation Learning", "Autonomous Driving", "Classical Mechanics"],
         "title": "Study, explore, and implement manipulation and humannoid robotics systems"
     },
     {
-      "name": "Unsupervised Learning",
-      "category": "AI/ML",
-      "prerequisites": ["Machine Learning Foundations"],
-      "title": "Machine learning techniques for finding patterns and structure in unlabeled data"
-    },
-    {
-      "name": "Self‑Supervised Learning",
-      "category": "AI/ML",
-      "prerequisites": ["Deep Learning"],
-      "title": "Training paradigm where supervision comes from the data itself rather than explicit labels"
-    },
-    {
         "name": "Symbolic AI",
         "category": "AI/ML",
-        "prerequisites": ["Machine Learning Foundations", "Deep Learning", "Data Structures & Algorithms"],
+        "prerequisites": ["Deep Learning"],
         "title": "Symbolic AI is an approach to artificial intelligence that represents knowledge explicitly using symbols and logical rules to perform reasoning and problem solving."
       },
     {
@@ -165,7 +152,7 @@
     {
       "name": "Approximation Algorithms",
       "category": "Math",
-      "prerequisites": ["Data Structures & Algorithms"],
+      "prerequisites": ["Data Structures, C++ Programming, & Algorithms"],
       "title": "Algorithms that find approximate solutions to optimization problems that are hard to solve exactly"
     },
     {
@@ -243,7 +230,7 @@
     {
       "name": "AutoML",
       "category": "AI/ML",
-      "prerequisites": ["Machine Learning Foundations", "Deep Learning"],
+      "prerequisites": ["Machine Learning Foundations"],
       "title": "Automated methods for selecting and optimizing machine learning models and pipelines"
     },
     {
@@ -268,12 +255,6 @@
     "title": "Techniques for analyzing, filtering, and reconstructing signals in time and frequency domains."
     },
     {
-        "name": "C++ Programming",
-        "category": "Programming",
-        "prerequisites": [],
-        "title": "Introduction to C++ programming, object-oriented programming, and memory management. Covers tree, graph, linked list, and etc."
-    },
-    {
         "name": "Python Programming",
         "category": "Programming",
         "prerequisites": [],
@@ -282,25 +263,25 @@
     {
         "name": "Web Development & Databases",
         "category": "Programming",
-        "prerequisites": ["Python Programming"],
+        "prerequisites": ["Python Programming", "Data Structures, C++ Programming, & Algorithms"],
         "title": "Introduction to web development and databases, including HTML, CSS, JavaScript, and SQL."
     },
     {
         "name": "Computer Systems",
         "category": "Systems",
-        "prerequisites": ["C++ Programming"],
+        "prerequisites": ["Data Structures, C++ Programming, & Algorithms"],
         "title": "Introduction to computer systems, including architecture, operating systems, and computer networks."
     },
     {
         "name": "Blockchain and Cryptocurrencies",
         "category": "Systems",
-        "prerequisites": ["Python Programming", "Data Structures & Algorithms"],
+        "prerequisites": ["Python Programming", "Data Structures, C++ Programming, & Algorithms"],
         "title": "Introduction to blockchain technology, blockchain platforms, including consensus mechanisms, smart contracts, and decentralized applications."
     },
     {
         "name": "Chips and VLSI Design",
         "category": "Systems",
-        "prerequisites": ["Computer Systems"],
+        "prerequisites": ["Computer Systems", "MOSFET"],
         "title": "Introduction to chips and VLSI design, including digital logic, computer architecture, and computer organization."
     },
     {
@@ -312,50 +293,44 @@
     {
       "name": "Electromagnetism",
       "category": "Physics",
-      "prerequisites": ["Calculus", "Partial Differential Equation"],
+      "prerequisites": ["Vibrations and Waves"],
       "title": "Study of electric/magnetic fields and their interactions via Maxwell's equations"
     },
     {
       "name": "Vibrations and Waves",
       "category": "Physics",
-      "prerequisites": ["Classical Mechanics", "Calculus", "Partial Differential Equation", "Electromagnetism"],
+      "prerequisites": ["Classical Mechanics"],
       "title": "Mathematical analysis of mechanical/electromagnetic waves and quantum oscillations"
     },
     {
       "name": "Quantum Mechanics",
       "category": "Physics",
-      "prerequisites": ["Classical Mechanics","Linear Algebra", "Partial Differential Equation", "Vibrations and Waves"],
+      "prerequisites": ["Linear Algebra", "Vibrations and Waves", "Electromagnetism"],
       "title": "Quantized behavior of microscopic particles including Schrödinger equation"
     },
     {
       "name": "Statistical Physics",
       "category": "Physics",
-      "prerequisites": ["Probability Theory", "Classical Mechanics", "Calculus"],
+      "prerequisites": ["Probability Theory", "Classical Mechanics"],
       "title": "Deriving macroscopic thermodynamics from microscopic particle statistics"
     },
     {
       "name": "Solid State Physics",
       "category": "Physics",
-      "prerequisites": ["Quantum Mechanics", "Electromagnetism", "Statistical Physics"],
+      "prerequisites": ["Quantum Mechanics", "Statistical Physics"],
       "title": "Crystal structures, band theory, and semiconductor properties"
     },
     {
       "name": "Quantum Computing",
       "category": "Physics",
-      "prerequisites": ["Quantum Mechanics", "Information Theory", "Linear Algebra"],
+      "prerequisites": ["Quantum Mechanics", "Information Theory"],
       "title": "Theoretical foundations and algorithms using quantum bits (qubits)"
     },
     {
       "name": "Special Relativity",
       "category": "Physics",
-      "prerequisites": ["Electromagnetism", "Classical Mechanics"],
+      "prerequisites": ["Electromagnetism"],
       "title": "Einstein's theory of spacetime for high-velocity objects"
-    },
-    {
-      "name": "Astrophysics",
-      "category": "Physics",
-      "prerequisites": ["Classical Mechanics", "Special Relativity", "Electromagnetism"],
-      "title": "Physical laws applied to celestial objects and cosmic evolution"
     },
     {
       "name": "Quantum Field Theory",
@@ -366,7 +341,13 @@
     {
       "name": "General Relativity",
       "category": "Physics",
-      "prerequisites": ["Special Relativity", "Classical Mechanics", "Calculus"],
+      "prerequisites": ["Special Relativity"],
       "title": "Einstein's theory of gravity as curvature of spacetime"
+    },
+    {
+      "name": "MOSFET",
+      "category": "Physics",
+      "prerequisites": ["Solid State Physics"],
+      "title": "Introduction to structure of MOSFETs and their voltage-current characteristics"
     }
 ]

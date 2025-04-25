@@ -26,12 +26,11 @@ def format_title(text, max_length=50):
 
 # Define colors for each category
 CATEGORY_COLORS = {
-    "Math": "#FF6B6B",  # Red
-    "Systems": "#4ECDC4",  # Teal
-    "Physics": "#FFD93D",  # Yellow
-    "AI/ML": "#95E1D3",  # Mint
-    "Programming": "#A8E6CF",  # Light green
-    "Data Eng": "#6C5B7B",  # Purple
+    "Math": "#9b5de5",  # Blue
+    "Physics": "#f15bb5",  # Dark Blue
+    "Systems": "#fee440",  # Darker Blue
+    "Programming": "#00bbf9",  # Darker Orange
+    "AI/ML": "#00f5d4",  # Orange
     "External": "#808080"  # Gray
 }
 
@@ -84,6 +83,7 @@ for class_name in all_class_names:
         class_name,
         label=class_name,
         title=hover_text,
+        category=category,
         color=CATEGORY_COLORS.get(category, "#808080")  # Default to gray for external prerequisites
     )
 
@@ -118,7 +118,9 @@ for node in net.nodes:
         node["title"] += f"• {each_class}\n"
     
     # Set node value based on total connections (affects node size)
-    node["value"] = 1.1 ** len(neighbors)
+    # node["value"] = 1.1 ** len(neighbors)
+    weight = 1.2 if node["category"] in ["Physics", "Math"] else 1.1
+    node["value"] = weight ** len(outcoming_classes)
 
 # Generate the HTML file
 net.write_html("class_prerequisites.html")
